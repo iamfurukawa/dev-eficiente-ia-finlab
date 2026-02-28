@@ -5,12 +5,16 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "edgartools>=5.19.1",
     "fastapi>=0.131.0",
     "groq>=1.0.0",
+    "hdbscan>=0.8.41",
+    "instructor>=1.14.5",
     "pydantic>=2.12.5",
     "pydantic-settings>=2.13.1",
     "python-dotenv>=1.2.1",
     "qdrant-client[fastembed]>=1.17.0",
+    "sentence-transformers>=5.2.3",
     "trafilatura>=2.0.0",
     "transformers>=5.2.0",
     "uvicorn>=0.41.0",
