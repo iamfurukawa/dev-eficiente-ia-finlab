@@ -14,7 +14,7 @@ app.add_middleware(
 
 app.include_router(search.router)
 app.include_router(rag.router)
-#app.include_router(agent.router)
+app.include_router(agent.router)
 
 
 @app.get("/")
